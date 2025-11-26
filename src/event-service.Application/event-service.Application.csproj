@@ -11,4 +11,9 @@
     <ProjectReference Include="..\event-service.Domain\event-service.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="FluentValidation" Version="11.6.0" />
+  </ItemGroup>
+
 </Project>
