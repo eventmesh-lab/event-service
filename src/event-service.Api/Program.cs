@@ -1,3 +1,5 @@
+using event_service.Infrastructure.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // DI: registramos implementaciones concretas
@@ -5,8 +7,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// TODO: Registrar servicios del dominio de Eventos
-// builder.Services.AddScoped<IEventoRepository, EventoRepository>();
+// Registrar infraestructura (DbContext, repositorios, fallback, mensajería)
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 
