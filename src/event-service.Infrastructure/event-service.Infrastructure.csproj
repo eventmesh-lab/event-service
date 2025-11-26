@@ -3,11 +3,12 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
     <AssemblyName>event_service.Infrastructure</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\event_service.Domain\event_service.Domain.csproj" />
+    <ProjectReference Include="..\event-service.Domain\event-service.Domain.csproj" />
   </ItemGroup>
 
 </Project>

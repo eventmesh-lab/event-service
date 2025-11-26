@@ -8,9 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\event_service.Application\event_service.Application.csproj" />
-    <ProjectReference Include="..\event_service.Domain\event_service.Domain.csproj" />
-    <ProjectReference Include="..\event_service.Infrastructure\event_service.Infrastructure.csproj" />
+    <ProjectReference Include="..\event-service.Application\event-service.Application.csproj" />
+    <ProjectReference Include="..\event-service.Domain\event-service.Domain.csproj" />
+    <ProjectReference Include="..\event-service.Infrastructure\event-service.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
